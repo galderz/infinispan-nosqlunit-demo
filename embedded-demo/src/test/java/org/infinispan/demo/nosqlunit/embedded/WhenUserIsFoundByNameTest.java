@@ -31,7 +31,6 @@ public class WhenUserIsFoundByNameTest {
    @Test
    @UsingDataSet(locations="user.json", loadStrategy= LoadStrategyEnum.CLEAN_INSERT)
    public void user_should_be_returned() {
-
       UserManager userManager = new UserManager(embeddedCache);
       User user = userManager.getUser("alex");
 

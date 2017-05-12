@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "key":"alex",
+      "implementation":"org.infinispan.demo.nosqlunit.remote.User",
+      "value": {
+        "name":"alex",
+        "age":32
+      }
+    }
+  ]
+}

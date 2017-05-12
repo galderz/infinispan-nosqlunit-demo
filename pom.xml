@@ -16,22 +16,9 @@
    </modules>
 
    <properties>
-      <version.nosqlunit>1.0.0-rc.4</version.nosqlunit>
+      <version.nosqlunit>1.0.0-rc.5</version.nosqlunit>
+      <version.infinispan>9.0.0.Final</version.infinispan>
+      <version.junit>4.12</version.junit>
    </properties>
-
-   <dependencies>
-      <dependency>
-         <groupId>com.lordofthejars</groupId>
-         <artifactId>nosqlunit-infinispan</artifactId>
-         <version>${version.nosqlunit}</version>
-      </dependency>
-
-      <dependency>
-         <groupId>junit</groupId>
-         <artifactId>junit</artifactId>
-         <version>4.12</version>
-         <scope>test</scope>
-      </dependency>
-   </dependencies>
 
 </project>
